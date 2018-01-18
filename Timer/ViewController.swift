@@ -9,15 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //画像のインスタンスを作る
+    var topImage:UIImage?
+    var lastImage:UIImage?
+    
+    //UIViewを紐付ける
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //画像を表示させる
+//        imageView.image =
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
