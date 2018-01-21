@@ -21,9 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-//        var timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: self.timeLabel, userInfo: nil, repeats: true)
-        
+        super.viewDidLoad()        
         
         //画像を表示させる
         topImage = UIImage(named: "neko")
