@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var timer = Timer.sc
+        var timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: self.timeLabel, userInfo: nil, repeats: true)
+        
         
         //画像を表示させる
         topImage = UIImage(named: "neko")
