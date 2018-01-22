@@ -14,14 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     
     //画像のインスタンスを作る
-    var topImage:UIImage?
-    var lastImage:UIImage?
+    var topImage:UIImage?//タイマー稼働中
+    var lastImage:UIImage?//タイマー終了後
     
     //UIViewを紐付ける
     @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()        
+        super.viewDidLoad()
         
         //画像を表示させる
         topImage = UIImage(named: "neko")
